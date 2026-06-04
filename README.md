@@ -1,21 +1,21 @@
 # Hi, I'm Zhang Kai
 
-Data Science and Big Data Technology undergraduate at Shanghai University of Electric Power.  
-I focus on AI applications, machine learning experiments, computer vision, and practical full-stack tools.
+上海电力大学数据科学与大数据技术本科在读。  
+关注 AI 应用、机器学习实验、计算机视觉、RAG 和小型工程落地。
 
 ## About Me
 
-- Interested in AI engineering, machine learning, RAG, computer vision, and model deployment.
-- Comfortable building small end-to-end projects from data preparation and model training to API, UI, and documentation.
-- Currently working with Python, PyTorch, YOLOv8, Transformers, FastAPI, Vue, MySQL, and Neo4j.
+- 对 AI 工程、机器学习、RAG、计算机视觉和模型部署感兴趣。
+- 能独立完成从数据整理、模型训练、结果分析到 API、前端页面和文档交付的小型项目闭环。
+- 常用技术包括 Python、PyTorch、YOLOv8、Transformers、FastAPI、Vue、MySQL、Neo4j。
 
 ## Tech Stack
 
 **AI / Machine Learning**
 
 - PyTorch, scikit-learn, Ultralytics YOLOv8, OpenVINO
-- Transformers, Qwen, RAG, BM25, knowledge distillation
-- FGSM adversarial attack, continual learning, GAN, few-shot learning
+- Transformers, Qwen, RAG, BM25, 知识蒸馏
+- FGSM 对抗攻击、持续学习、GAN、少样本学习
 
 **Development**
 
@@ -27,48 +27,48 @@ I focus on AI applications, machine learning experiments, computer vision, and p
 
 ## Featured Projects
 
-### YOLOv8 Hand Gesture Detection
+### YOLOv8 手势检测
 
 Repository: [python-big-homework1](https://github.com/boommelon/python-big-homework1)
 
-- Built a Grab / Release hand gesture detector based on Ultralytics YOLOv8.
-- Completed dataset preparation, label checking, transfer learning, command-line inference, and Streamlit Web GUI.
-- Reached about 0.995 mAP50 and 0.915 mAP50-95 on the validation set.
-- Achieved about 15 ms single-frame inference at 640x480 on RTX 3060 Laptop GPU.
+- 基于 Ultralytics YOLOv8 构建 Grab / Release 双类手势检测项目。
+- 完成数据集整理、标注校验、迁移学习微调、命令行推理和 Streamlit Web GUI。
+- 验证集 mAP50 约 0.995，mAP50-95 约 0.915。
+- 在 RTX 3060 Laptop GPU 上，640x480 单帧推理约 15 ms。
 
-### AI Paper Study Assistant
+### AI 论文学习助手
 
 Repository: [ai-paper-study-assistant](https://github.com/boommelon/ai-paper-study-assistant)
 
-- Built a local AI study assistant for reading papers and technical documents.
-- Supports local folders and uploaded `md`, `txt`, `pdf`, and `docx` files.
-- Uses a FastAPI backend and Vue 3 frontend to generate summaries, beginner-friendly explanations, review questions, and folder-level study maps.
-- Added Markdown export and JSON cache to reduce repeated generation.
+- 构建本地 AI 学习助手，用于整理论文和技术资料。
+- 支持读取本地目录或上传 `md`、`txt`、`pdf`、`docx` 文件。
+- 后端使用 FastAPI，前端使用 Vue 3，支持生成论文总结、初学者解释、复习问题和文件夹学习地图。
+- 实现 Markdown 导出与 JSON 缓存，减少重复生成。
 
-### RAG Knowledge QA Experiment
+### RAG 知识问答实验
 
-- Built a Chinese RAG workflow using document chunking, `jieba`, BM25 retrieval, and Qwen generation.
-- Used the 2023 Power Load Management Measures as the knowledge base.
-- Implemented fixed-size chunking, Top-K retrieval, RAG prompt construction, and local model inference with Transformers.
+- 基于中文文档分块、`jieba` 分词、BM25 检索和 Qwen 生成构建 RAG 问答流程。
+- 使用《电力负荷管理办法（2023年版）》作为知识库。
+- 实现固定长度分块、Top-K 检索、RAG Prompt 构建和本地 Transformers 推理。
 
-### OpenVINO Blind Travel Assistance System
+### OpenVINO 盲人辅助出行系统
 
-- Participated in a team project for assisting visually impaired people in travel scenarios.
-- Worked on backend inference service and frontend interaction.
-- Integrated YOLO object detection with Flask and Vue, then optimized the inference workflow with Intel OpenVINO.
-- The team won a national third prize among 200+ participating teams.
+- 参与面向视障人士出行场景的目标检测辅助系统。
+- 负责后端推理服务和前端交互部分实现。
+- 使用 Flask + YOLO 完成目标检测服务，配合 Vue 前端展示和语音反馈，并使用 Intel OpenVINO 优化推理链路。
+- 团队从 200+ 支参赛队伍中获得全国三等奖。
 
 ## Machine Learning Experiments
 
-- **Adversarial Attack:** Implemented FGSM on a handwritten digit classifier. Accuracy dropped from 94.17% to 4.17% at epsilon=0.20.
-- **Knowledge Distillation:** Implemented CrossEntropy + KLDiv distillation loss and compared teacher, normal student, and distilled student models.
-- **Continual Learning:** Compared naive sequential learning with experience replay. Forgetting dropped from 0.9336 to 0.0265 after adding replay samples.
-- **Other Practice:** GAN digit generation, Prototypical Networks for few-shot classification, Qwen3-4B cloud inference, and Neo4j knowledge graph construction.
+- **对抗攻击：** 在手写数字分类器上实现 FGSM，原始准确率 94.17%，epsilon=0.20 时降至 4.17%。
+- **知识蒸馏：** 实现 CrossEntropy + KLDiv 蒸馏损失，对比教师模型、普通学生模型和蒸馏学生模型。
+- **持续学习：** 对比 Naive Sequential Learning 和 Experience Replay，加入 replay 样本后遗忘程度从 0.9336 降至 0.0265。
+- **其他实践：** GAN 手写数字生成、Prototypical Networks 少样本分类、Qwen3-4B 云端推理、Neo4j 知识图谱构建。
 
 ## Other Projects
 
-- Gym membership and course management system with Python, Tkinter, and MySQL.
-- Graduation project management system with JavaWeb, Servlet, JSP, MySQL, and Tomcat.
+- Python + Tkinter + MySQL 健身房会员及课程管理系统。
+- JavaWeb + Servlet + JSP + MySQL + Tomcat 毕业设计管理系统。
 
 ## Contact
 
